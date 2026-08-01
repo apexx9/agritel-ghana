@@ -14,7 +14,7 @@ const Hero = ({ buttonRef, onToggle }: HeroProps) => {
         <Logo />
         <MobileMenuButton buttonRef={buttonRef} onClick={onToggle} />
       </div>
-      <div className="flex flex-col gap-[10px] items-start w-[80%] px-[20px]">
+      <div className="flex flex-col gap-[10px] items-start w-[90%] px-[20px]">
         <h1 className="font-semibold text-[32px] text-white text-left">
           Smart Farming Intelligence, Built for Every Crop Farmer.
         </h1>
