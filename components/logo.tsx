@@ -12,12 +12,12 @@ const Logo = () => {
 
   return (
     <div
-      className="flex items-center gap-[15px] cursor-pointer"
+      className="flex items-center gap-[10px] cursor-pointer"
       onClick={changeRoute}
     >
       <Image src={AgritelLogo} alt="Main agritel logo" className="h-10 w-10" />
 
-      <p className="text-5 font-semibold text-[#F5F5F5]">Agritel</p>
+      <p className="text-[20px] font-semibold text-[#F5F5F5]">Agritel</p>
     </div>
   );
 };
