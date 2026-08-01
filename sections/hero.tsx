@@ -4,12 +4,12 @@ import BackgroundImage from "../public/assets/hero-img.jpg";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col justify-between w-full h-[80dvh] hero pt-17.5 pb-22.5">
+    <section className="flex flex-col justify-between w-full h-[100dvh] hero pt-17.5 pb-22.5">
       <div className="flex justify-between px-[20px] items-center">
         <Logo />
         <MobileMenuButton />
       </div>
-      <div className="flex flex-col gap-[10px] items-center w-[80%] px-[10px]">
+      <div className="flex flex-col gap-[10px] items-start w-[80%] px-[20px]">
         <h1 className="font-semibold text-[32px] text-white text-left">
           Smart Farming Intelligence, Built for Every Crop Farmer.
         </h1>

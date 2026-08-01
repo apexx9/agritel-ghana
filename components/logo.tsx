@@ -15,7 +15,7 @@ const Logo = () => {
       className="flex items-center gap-[15px] cursor-pointer"
       onClick={changeRoute}
     >
-      <Image src={AgritelLogo} alt="Main agritel logo" className="h-5 w-5" />
+      <Image src={AgritelLogo} alt="Main agritel logo" className="h-10 w-10" />
 
       <p className="text-5 font-semibold text-[#F5F5F5]">Agritel</p>
     </div>
