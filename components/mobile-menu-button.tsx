@@ -1,9 +1,8 @@
-"use client";
 import { Menu } from "lucide-react";
 import { RefObject } from "react";
 
 interface MobileMenuButtonProps {
-  buttonRef: RefObject<HTMLDivElement>;
+  buttonRef: RefObject<HTMLDivElement | null>;
   onClick: () => void;
 }
 

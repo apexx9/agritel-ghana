@@ -20,7 +20,7 @@ const Nav: NavProps[] = [
 interface SidebarProps {
   isOpen: boolean;
   onClose: () => void;
-  buttonRef: React.RefObject<HTMLElement>;
+  buttonRef: React.RefObject<HTMLElement | null>;
 }
 
 const Sidebar = ({ isOpen, onClose, buttonRef }: SidebarProps) => {

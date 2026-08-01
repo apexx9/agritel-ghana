@@ -3,7 +3,7 @@ import MobileMenuButton from "@/components/mobile-menu-button";
 import { RefObject } from "react";
 
 interface HeroProps {
-  buttonRef: RefObject<HTMLDivElement>;
+  buttonRef: RefObject<HTMLDivElement | null>;
   onToggle: () => void;
 }
 
