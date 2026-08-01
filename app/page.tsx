@@ -11,7 +11,7 @@ const Page = () => {
   const closeSidebar = () => setIsOpen(false);
 
   return (
-    <main className="w-full min-h-fit flex flex-col justify-between">
+    <main className="w-full min-h-dvh flex flex-col justify-between">
       <Hero buttonRef={buttonRef} onToggle={toggleSidebar} />
       <Sidebar isOpen={isOpen} onClose={closeSidebar} buttonRef={buttonRef} />
     </main>
