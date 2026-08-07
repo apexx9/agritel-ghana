@@ -9,12 +9,12 @@ interface HeroProps {
 
 const Hero = ({ buttonRef, onToggle }: HeroProps) => {
   return (
-    <section className="flex flex-col justify-between w-full h-[100dvh] hero pt-17.5 pb-22.5">
-      <div className="flex justify-between px-[20px] items-center">
+    <section className="flex flex-col w-full h-dvh">
+      <div className="flex justify-between px-5 py-2.5 md:py-4 lg:py-6 items-center">
         <Logo />
         <MobileMenuButton buttonRef={buttonRef} onClick={onToggle} />
       </div>
-      <div className="flex flex-col gap-[10px] items-start w-[90%] px-[20px]">
+      <div className="hero h-full w-full pb-8 flex flex-col justify-end gap-2.5 items-start px-5">
         <h1 className="font-semibold text-[32px] text-white text-left">
           Smart Farming Intelligence, Built for Every Crop Farmer.
         </h1>

@@ -32,16 +32,16 @@ const Sidebar = ({ isOpen, onClose, buttonRef }: SidebarProps) => {
     <div className="bg-black/50 fixed inset-0 z-50">
       <aside
         ref={sideBarRef}
-        className="absolute right-0 top-0 h-screen flex flex-col gap-[20px] w-50 bg-white"
+        className="absolute right-0 top-0 h-screen flex flex-col gap-5 w-50 bg-white"
       >
-        <div className="absolute top-17.5 left-0 right-0 flex justify-between items-center px-[20px] pb-[15px] border-b-[2px] border-[#E5E5E5]">
+        <div className="absolute top-17.5 left-0 right-0 flex justify-between items-center px-5 pb-3.75 border-b-0.5 border-[#E5E5E5]">
           <p className="text-black text-[18px] font-medium uppercase">Menu</p>
-          <div className="border-[2px] border-[#E5E5E5] rounded-[10px] p-[6px] bg-transparent hover:bg-[#E5E5E5]/40">
+          <div className="border-0.5 border-[#E5E5E5] rounded-[10px] p-1.5 bg-transparent hover:bg-[#E5E5E5]/40">
             <X onClick={onClose} className="cursor-pointer" />
           </div>
         </div>
 
-        <nav className="flex flex-col gap-5 p-6 pt-[160px]">
+        <nav className="flex flex-col gap-5 p-6 pt-40">
           {Nav.map((navItem) => (
             <Link
               key={navItem.id}
