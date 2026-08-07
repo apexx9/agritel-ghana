@@ -1,10 +1,11 @@
 import React from "react";
+import { CloudHail } from "lucide-react";
 
 const ProblemDescription = () => {
   return (
     <div className="flex flex-col px-15.5 py-12.5 gap-6">
       <div className="flex flex-col gap-2.5 items-center">
-        {/* Image */}
+        <CloudHail className="text-[#18AB1D]" size={48} />
         <p className="text-black text-[24px] text-center font-medium">
           Climate Uncertaintity
         </p>
@@ -14,7 +15,8 @@ const ProblemDescription = () => {
           3–12% by mid-century.
         </p>
       </div>
-      <div>
+      <div className="flex flex-col gap-2.5 items-center">
+        <CloudHail className="text-[#18AB1D]" size={48} />
         <p className="text-black text-[24px] text-center font-medium">
           Information Gap
         </p>

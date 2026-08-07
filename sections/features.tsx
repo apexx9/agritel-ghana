@@ -1,10 +1,11 @@
 import React from "react";
+import { CloudOff, Sun, Shield } from "lucide-react";
 
 const Features = () => {
   return (
     <div className="flex flex-col px-15.5 py-12.5 gap-6 bg-white">
       <div className="flex flex-col gap-2.5 items-center">
-        {/* Icon */}
+        <CloudOff className="text-[#18AB1D]" size={48} />
         <p className="text-[#18AB1D] text-[20px] text-center font-medium">
           Offline-first mobile platform
         </p>
@@ -14,7 +15,7 @@ const Features = () => {
         </p>
       </div>
       <div className="flex flex-col gap-2.5 items-center">
-        {/* Icon */}
+        <Sun className="text-[#18AB1D]" size={48} />
         <p className="text-[#18AB1D] text-[20px] text-center font-medium">
           AI-powered hyperlocal weather forecasting
         </p>
@@ -24,7 +25,7 @@ const Features = () => {
         </p>
       </div>
       <div className="flex flex-col gap-2.5 items-center">
-        {/* Icon */}
+        <Shield className="text-[#18AB1D]" size={48} />
         <p className="text-[#18AB1D] text-[20px] text-center font-medium">
           Pest & parasite prediction using AI
         </p>
