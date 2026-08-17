@@ -13,7 +13,7 @@ const Footer = () => {
             About Us
           </a>
           <a
-            href="#"
+            href="#team"
             className="font-normal text-white text-[15px] hover:text-green-200 transition-colors duration-200"
           >
             Meet the team
