@@ -75,17 +75,17 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "/og-green.png",
+        url: "https://agritelghana.com/og-green.png",
         width: 1200,
         height: 630,
         alt: "AgriTel Ghana - Smart Agriculture Platform",
       },
-      {
-        url: "/og-white.png",
-        width: 1200,
-        height: 630,
-        alt: "AgriTel Ghana - Smart Agriculture Platform",
-      },
+      // {
+      //   url: "/og-white.png",
+      //   width: 1200,
+      //   height: 630,
+      //   alt: "AgriTel Ghana - Smart Agriculture Platform",
+      // },
     ],
   },
 
@@ -94,7 +94,7 @@ export const metadata: Metadata = {
     title: "AgriTel Ghana | Smart Agriculture & Farm Intelligence",
     description:
       "Smart agriculture technology helping farmers monitor crops, detect pests, and make better farming decisions with data.",
-    images: ["/og-green.png", "/og-white.png"],
+    images: ["https://agritelghana.com/og-green.png"], // ["https://agritelghana.com/og-green.png", "https://agritelghana.com/og-white.png"],
   },
 
   icons: {
