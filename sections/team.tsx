@@ -16,7 +16,7 @@ const teamMembers: TeamMember[] = [
   },
   {
     id: 2,
-    name: "JSunuh Maurice Elikem",
+    name: "Sunuh Maurice Elikem",
     role: "CEO",
     imageUrl: "/assets/Agritel-Landing/maurice.png",
   },
@@ -60,7 +60,7 @@ const Team = () => {
       {teamMembers.map((member) => (
         <div
           key={member.id}
-          className="flex flex-col w-fit h-fit gap-2.5 items-center justify-center"
+          className="flex flex-col w-fit text-left h-fit gap-1.5 items-center justify-center"
         >
           <img
             src={member.imageUrl}
@@ -70,7 +70,7 @@ const Team = () => {
           <h3 className="font-semibold text-[11px] text-black text-left">
             {member.name}
           </h3>
-          <p className="font-normal text-[10px] text-[#8F8787]">
+          <p className="font-normal text-left text-[10px] text-[#8F8787]">
             {member.role}
           </p>
         </div>
