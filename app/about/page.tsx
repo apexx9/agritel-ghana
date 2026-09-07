@@ -22,7 +22,9 @@ const Page = () => {
             Who we are
           </p>
           <p className="font-light text-[20px] text-left text-black">
-            AI-powered climate smart device built offline-first
+            Based in Takoradi, in the western part of Ghana Agritel Farming Solutions is made up of young people from farming, engineering, design, and business backgrounds, working together toward one purpose — to close the information gap that leaves African farmers exposed to a changing climate.
+            Our mission is to put climate intelligence in the hands of every African farmer, by giving smallholder farmers offline-first, AI-powered
+            forecasts and agronomy guidance that work with the phones and connectivity they already have.
           </p>
         </div>
         <div className="flex flex-col items-start gap-3 py-6.5 px-4.5 bg-[#F5FFE6]">
