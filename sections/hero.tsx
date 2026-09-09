@@ -1,5 +1,4 @@
-import Logo from "@/components/logo";
-import MobileMenuButton from "@/components/mobile-menu-button";
+import Navbar from "@/components/navbar";
 import { RefObject } from "react";
 import Image from "next/image";
 
@@ -11,10 +10,7 @@ interface HeroProps {
 const Hero = ({ buttonRef, onToggle }: HeroProps) => {
   return (
     <section className="flex flex-col w-full h-dvh">
-      <div className="flex justify-between px-5 py-2.5 md:py-4 lg:py-6 items-center">
-        <Logo />
-        <MobileMenuButton buttonRef={buttonRef} onClick={onToggle} />
-      </div>
+      <Navbar buttonRef={buttonRef} onToggle={onToggle} />
       <div className="relative h-full w-full">
         <Image
           src="/assets/hero-img.jpg"
@@ -24,11 +20,11 @@ const Hero = ({ buttonRef, onToggle }: HeroProps) => {
           priority
         />
         <div className="absolute inset-0 bg-black/50" />
-        <div className="relative z-10 h-full w-full pb-8 flex flex-col justify-end gap-2.5 items-start px-5">
-          <h1 className="font-semibold text-[32px] text-white text-left">
+        <div className="relative z-10 h-full w-full pb-8 md:pb-16 flex flex-col justify-end md:justify-center gap-2.5 md:gap-4 items-start px-5 md:px-10 lg:px-16">
+          <h1 className="font-semibold text-[32px] md:text-[44px] lg:text-[56px] leading-tight text-white text-left max-w-[820px]">
             Smart Farming Intelligence, Built for Every Crop Farmer.
           </h1>
-          <p className="font-medium text-[20px] text-[#F5F5F5] text-left">
+          <p className="font-medium text-[20px] md:text-[22px] lg:text-[24px] text-[#F5F5F5] text-left max-w-[640px]">
             Agritel delivers hyperlocal weather forecasts, AI-powered agronomy
             advice, and offline-first technology directly to Africa&apos;s
             smallholder farmers with no smartphone, no internet, no barriers.

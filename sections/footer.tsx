@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col gap-5 bg-[#08650B] px-9.5 py-8.5">
-      <nav className="flex flex-col items-start gap-8.75">
+    <div className="flex flex-col gap-5 bg-[#08650B] px-9.5 md:px-10 lg:px-16 py-8.5 md:py-14">
+      <nav className="flex flex-col md:flex-row md:justify-between items-start gap-8.75 md:gap-10 max-w-6xl w-full mx-auto">
         <div className="flex flex-col gap-2">
           <p className="mb-5 font-semibold text-white text-[20px]">Company</p>
           <a
@@ -66,14 +66,16 @@ const Footer = () => {
           </a>
         </div>
       </nav>
-      <hr className="border-white opacity-30" />
-      <p className="text-[#8F8787] font-normal text-[12px]">
-        Copyright 2026.{" "}
-        <a className="text-white hover:text-green-200 transition-colors duration-200">
-          Agritel Farming Solutions.
-        </a>{" "}
-        All right reserved
-      </p>
+      <div className="max-w-6xl w-full mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+        <hr className="border-white opacity-30 md:flex-1" />
+        <p className="text-[#8F8787] font-normal text-[12px] md:text-[14px]">
+          Copyright 2026.{" "}
+          <a className="text-white hover:text-green-200 transition-colors duration-200">
+            Agritel Farming Solutions.
+          </a>{" "}
+          All right reserved
+        </p>
+      </div>
     </div>
   );
 };
